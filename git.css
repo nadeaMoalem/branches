@@ -1,0 +1,25 @@
+
+
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+#boxes{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    justify-items: center;
+    align-content: center;
+    grid-gap: 1vw;
+}
+.box{
+    background-color: palevioletred;
+    width: 100px;
+    border: 5px solid yellow;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    
+}
